@@ -1140,3 +1140,4 @@ bot.on('messageReactionAdd', (reaction, user) => {
 });
 
 bot.login(TOKEN);
+client.login(process.env.BOT_TOKEN);
